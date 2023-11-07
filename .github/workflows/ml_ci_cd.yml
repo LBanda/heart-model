@@ -52,6 +52,5 @@ jobs:
         namespace: ${{secrets.OKTETO_NAMESPACE }}
         manifest: manifest/k8s.yml
         tag: ${{ secrets.DOCKER_USERNAME }}/${{secrets.MODEL_NAME}}:${{ github.sha }}
-    - name: prueba
 
 
